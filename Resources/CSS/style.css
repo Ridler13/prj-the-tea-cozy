@@ -32,14 +32,71 @@ nav {
 nav span {
   display: inline-block;
   padding: 20px 10px;
-  padding-top: 20px;
-  padding-right: 10px;
-  padding-bottom: 20px;
-  padding-left: 10px;
 }
 a {
   color: seashell;
 }
-/*Main Container*/
+/*Main Content*/
+/*Body Inherited from header*/
 
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
 }
+
+/*Mission Content*/
+/*Body Inherited from header*/
+
+#mission {
+  height: 700px;
+  background-image: url ("Resources/Images/img-mission-background.jpg")
+  padding-top: 70px;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+/*Shop Content*/
+/*Body Inherited from header*/
+/*h2,h3,h4 inherited from Mission Content*/
+
+#shop {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.item {
+  padding: 5px;
+}
+.item img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+.item span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*Location Content*/
